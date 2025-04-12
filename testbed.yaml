@@ -1,0 +1,13 @@
+devices:
+  ap:
+    os: iosxe
+    type: access_point
+    connections:
+      cli:
+        protocol: ssh
+        ip: 192.168.1.1
+        port: 22
+        username: admin
+        password: mypassword
+
+  

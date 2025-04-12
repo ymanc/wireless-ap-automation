@@ -1,0 +1,20 @@
+AP_cpu:
+- sh processes cpu 0
+- sh processes cpu 1
+- sh processes cpu 2
+- sh processes cpu 3
+AP_memory:
+- sh memory summary
+- sh memory detail
+AP_performance:
+- sh interfaces dot11Radio 3 mumimo client BE:43:ED:D3:B7:30
+AP_version:
+- show version
+ap_cpu:
+- show cpu 0
+ap_memory:
+- sh memory summary
+ap_performance:
+- sh interfaces dot11Radio 3 mumimo client BE:43:ED:D3:B7:30
+ap_version:
+- show version

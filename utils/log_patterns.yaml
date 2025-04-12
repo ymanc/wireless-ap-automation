@@ -1,0 +1,17 @@
+kernel_crash:
+  - "kernel panic"
+  - "fatal exception"
+  - "not syncing"
+  - "crashed"
+
+interface_bounce:
+  - "changed state to down"
+  - "changed state to up"
+  - "link down"
+  - "link up"
+
+system_critical:
+  - "critical"
+  - "high memory usage"
+  - "system reboot"
+  - "out of memory"

@@ -1,0 +1,20 @@
+AP1815I_Cloud_5E10#sh processes cpu
+Mem: 265068K used, 751024K free, 100872K shrd, 0K buff, 101272K cached
+CPU:   0% usr   2% sys   0% nic  97% idle   0% io   0% irq   0% sirq
+Load average: 1.35 1.41 1.33 1/138 29279
+  PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+ 5664     1 root     S     811m  82%   0   1% /usr/sbin/grpc_server
+29280 29274 root     R     1768   0%   0   1% top -n 1 -b
+ 5859     1 root     S    39896   4%   2   0% /opt/cisco/bin/capwapd 2>&1
+ 5902     1 root     S    39260   4%   0   0% /opt/cisco/bin/wcpd /etc/prewcpstr.txt
+ 7132     1 root     S    26184   3%   3   0% /usr/bin/memcached -d -S -p 11111 -l 0.0.0.0 -c 1024 -u root -m 64
+ 4492     1 root     S    21028   2%   3   0% /opt/cisco/bin/aptraced
+ 4236     1 root     S    15628   2%   0   0% /opt/cisco/bin/cisco_shell
+ 6899     1 root     S    13724   1%   1   0% /usr/sbin/dcdsd
+ 6893     1 root     S    11464   1%   3   0% /usr/sbin/tlsc
+ 5890     1 root     S     8292   1%   1   0% /opt/cisco/bin/cleanaird
+ 4417     1 root     S     7288   1%   3   0% /opt/cisco/bin/hostapd 2>&1
+ 4219     1 root     S     6884   1%   3   0% /opt/cisco/bin/capwap_brain
+ 4637     1 root     S     6692   1%   0   0% /usr/bin/slowfcgi -s /tmp/slow_fcgi_sock
+ 4455     1 root     S     6692   1%   1   0% /usr/bin/fastcgi -s /tmp/fcgi_sock
+ 6030     1 root     S     4756   0%   0   0% /usr/sbin/lighttpd -D -f /etc/lighttpd.conf

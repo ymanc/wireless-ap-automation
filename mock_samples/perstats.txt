@@ -1,0 +1,1533 @@
+c9178-2#sh interfaces dot11Radio 3 mumimo client BE:43:ED:D3:B7:30
+              MAC AID          SSID RSSI VHT  HE SU/MU DL/UL 40MHz 80MHz 160MHz 80+80MHz
+BE:43:ED:D3:B7:30  33 3-SNP-WPA3PSK  -34  no yes     - DL-UL    no   yes    yes       no
+
+Configured rates for client:
+Legacy Rates(Mbps): 12 18 24 36 48 54 61 
+HE Rates: 1SS:M0-11 2SS:M0-11 
+EHT Rates: 1SS:M0-13 2SS:M0-13 
+
+Client Accumulated Stats:
+              mac slot   intf   TxData TxMgmt     TxUC     TxBytes TxFail TxDcrd TxCumRetries RxData RxMgmt RxBytes RxErr                     TxRt(Mbps)                     RxRt(Mbps) idle_counter stats_ago expiration
+BE:43:ED:D3:B7:30    3 mld0v0 30747053      1 30747053 46681227167      0      0      2398384   3178      1 2425662     0 EHT-160,2SS,MCS12,GI0.8 (2594) EHT-160,2SS,MCS13,GI0.8 (2882)        86395  7.512000      85945
+Slot Type Rx-Pkts Rx-Bytes  Tx-Pkts    Tx-Bytes
+   3   SU    3188  2426254 30747056 46681227449
+   3   MU       0        0        0           0
+SU Rate Statistics:
+Rate-Index    Rx-Pkts    Tx-Pkts Tx-Retries
+         0          1          0          0
+         2        277         38          0
+         4        741          0          0
+         6          0          4          0
+         7          0          6          0
+         8          0          5          0
+         9          4          5          0
+        10        160     151172       4368
+        11        325    4281259     193079
+        12       1371    8786581     810023
+        13        309   17527986    1390914
+No MU Rates statistics for this client
+Node Tx Stats:
+
+
+Total Packet Completions = 33059448
+
+Total Bytes Completions = 49652878364
+
+Success Packets = 30747277
+
+Success Bytes = 46179998934
+
+Success Packets in TWT Session = 0
+
+Success Bytes in TWT Session = 0
+
+Unicast Success Packets = 33059448
+
+Unicast Success Bytes = 49652878364
+
+Multicast Success Packets = 0
+
+Multicast Success Bytes = 0
+
+Broadcast Success Packets = 0
+
+Broadcast Success Bytes = 0
+
+Packets Successfully Sent after one or more retry = 7454698
+
+Packets Successfully Sent after more than one retry = 1905648
+
+Packets Failed = 2312171
+
+Packets Failed due to retry threshold breach = 0
+
+Packets In OFDMA = 0
+
+Packets In STBC = 0
+
+Packets In LDPC = 30747236
+
+Packet Retries = 348613
+
+MSDU's Part of AMSDU = 1273525
+
+Msdu's As Part of Ampdu = 41
+
+Msdu's As Ampdu = 4413893
+
+Last Packet RSSI = 57
+
+Dropped At FW: Removed Pkts = 0
+
+Release source not TQM = 41
+
+Dropped At FW: Removed bytes = 0
+
+Dropped At FW: Removed transmitted = 0
+
+Dropped At FW: Removed Untransmitted = 0
+
+Dropped At FW: removed untransmitted fw_reason1 = 0
+
+Dropped At FW: removed untransmitted fw_reason2 = 0
+
+Dropped At FW: removed untransmitted fw_reason3 = 0
+
+Dropped At FW:removed untransmitted disable queue = 0
+
+Dropped At FW: removed untransmitted no match = 0
+
+Dropped due to HW threshold criteria = 2312171
+
+Dropped due Link desc not available drop in HW = 0
+
+Drop bit set or invalid flow = 0
+
+MCAST vdev drop in HW = 0
+
+Dropped : Age Out = 0
+
+Dropped : Invalid Reason = 0
+
+NAWDS : 
+
+Nawds multicast Drop Tx Packet = 0
+
+	Nawds multicast  Tx Packet Count = 0
+
+	Nawds multicast  Tx Packet Bytes = 0
+
+PPDU's = 52506
+
+Number of PPDU's with Punctured Preamble = 0
+
+MPDU's Successful = 4413934
+
+MPDU's Tried = 4756920
+
+Rate Info:
+
+MSDU Count
+
+	OFDM 48 Mbps = 0
+
+	OFDM 24 Mbps = 0
+
+	OFDM 12 Mbps = 41
+
+	OFDM 6 Mbps  = 0
+
+	OFDM 54 Mbps = 0
+
+	OFDM 36 Mbps = 0
+
+	OFDM 18 Mbps = 0
+
+	OFDM 9 Mbps  = 0
+
+
+
+	CCK 11 Mbps Long   = 0
+
+	CCK 5.5 Mbps Long  = 0
+
+	CCK 2 Mbps Long    = 0
+
+	CCK 1 Mbps Long    = 0
+
+	CCK 11 Mbps Short  = 0
+
+	CCK 5.5 Mbps Short = 0
+
+	CCK 2 Mbps Short   = 0
+
+
+
+	HT MCS 0 (BPSK 1/2)   = 0
+
+	HT MCS 1 (QPSK 1/2)   = 0
+
+	HT MCS 2 (QPSK 3/4)   = 0
+
+	HT MCS 3 (16-QAM 1/2) = 0
+
+	HT MCS 4 (16-QAM 3/4) = 0
+
+	HT MCS 5 (64-QAM 2/3) = 0
+
+	HT MCS 6 (64-QAM 3/4) = 0
+
+	HT MCS 7 (64-QAM 5/6) = 0
+
+
+
+	VHT MCS 0 (BPSK 1/2)      = 0
+
+	VHT MCS 1 (QPSK 1/2)      = 0
+
+	VHT MCS 2 (QPSK 3/4)      = 0
+
+	VHT MCS 3 (16-QAM 1/2)    = 0
+
+	VHT MCS 4 (16-QAM 3/4)    = 0
+
+	VHT MCS 5 (64-QAM 2/3)    = 0
+
+	VHT MCS 6 (64-QAM 3/4)    = 0
+
+	VHT MCS 7 (64-QAM 5/6)    = 0
+
+	VHT MCS 8 (256-QAM 3/4)   = 0
+
+	VHT MCS 9 (256-QAM 5/6)   = 0
+
+	VHT MCS 10 (1024-QAM 3/4) = 0
+
+	VHT MCS 11 (1024-QAM 5/6) = 0
+
+
+
+	HE MCS 0 (BPSK 1/2)      = 0
+
+	HE MCS 1 (QPSK 1/2)      = 0
+
+	HE MCS 2 (QPSK 3/4)      = 0
+
+	HE MCS 3 (16-QAM 1/2)    = 0
+
+	HE MCS 4 (16-QAM 3/4)    = 0
+
+	HE MCS 5 (64-QAM 2/3)    = 0
+
+	HE MCS 6 (64-QAM 3/4)    = 0
+
+	HE MCS 7 (64-QAM 5/6)    = 0
+
+	HE MCS 8 (256-QAM 3/4)   = 0
+
+	HE MCS 9 (256-QAM 5/6)   = 0
+
+	HE MCS 10 (1024-QAM 3/4) = 0
+
+	HE MCS 11 (1024-QAM 5/6) = 0
+
+	HE MCS 12 (4096-QAM 3/4) = 0
+
+	HE MCS 13 (4096-QAM 5/6) = 0
+
+
+
+	EHT MCS 0 (BPSK 1/2)      = 0
+
+	EHT MCS 1 (QPSK 1/2)      = 0
+
+	EHT MCS 2 (QPSK 3/4)      = 0
+
+	EHT MCS 3 (16-QAM 1/2)    = 0
+
+	EHT MCS 4 (16-QAM 3/4)    = 0
+
+	EHT MCS 5 (64-QAM 2/3)    = 0
+
+	EHT MCS 6 (64-QAM 3/4)    = 6
+
+	EHT MCS 7 (64-QAM 5/6)    = 6
+
+	EHT MCS 8 (256-QAM 3/4)   = 5
+
+	EHT MCS 9 (256-QAM 5/6)   = 5
+
+	EHT MCS 10 (1024-QAM 3/4) = 151172
+
+	EHT MCS 11 (1024-QAM 5/6) = 4281259
+
+	EHT MCS 12 (4096-QAM 3/4) = 8786609
+
+	EHT MCS 13 (4096-QAM 5/6) = 17528174
+
+	EHT MCS 14 (BPSK-DCM 1/2) = 0
+
+	EHT MCS 15 (BPSK-DCM 1/2) = 0
+
+
+
+PPDU Count
+
+    HE MCS 0 (BPSK 1/2)      = 0
+
+    HE MCS 1 (QPSK 1/2)      = 0
+
+    HE MCS 2 (QPSK 3/4)      = 0
+
+    HE MCS 3 (16-QAM 1/2)    = 0
+
+    HE MCS 4 (16-QAM 3/4)    = 0
+
+    HE MCS 5 (64-QAM 2/3)    = 0
+
+    HE MCS 6 (64-QAM 3/4)    = 0
+
+    HE MCS 7 (64-QAM 5/6)    = 0
+
+    HE MCS 8 (256-QAM 3/4)   = 0
+
+    HE MCS 9 (256-QAM 5/6)   = 0
+
+    HE MCS 10 (1024-QAM 3/4) = 0
+
+    HE MCS 11 (1024-QAM 5/6) = 0
+
+    INVALID  = 0
+
+
+
+    HE MU-MIMO MCS 0 (BPSK 1/2)      = 0
+
+    HE MU-MIMO MCS 1 (QPSK 1/2)      = 0
+
+    HE MU-MIMO MCS 2 (QPSK 3/4)      = 0
+
+    HE MU-MIMO MCS 3 (16-QAM 1/2)    = 0
+
+    HE MU-MIMO MCS 4 (16-QAM 3/4)    = 0
+
+    HE MU-MIMO MCS 5 (64-QAM 2/3)    = 0
+
+    HE MU-MIMO MCS 6 (64-QAM 3/4)    = 0
+
+    HE MU-MIMO MCS 7 (64-QAM 5/6)    = 0
+
+    HE MU-MIMO MCS 8 (256-QAM 3/4)   = 0
+
+    HE MU-MIMO MCS 9 (256-QAM 5/6)   = 0
+
+    HE MU-MIMO MCS 10 (1024-QAM 3/4) = 0
+
+    HE MU-MIMO MCS 11 (1024-QAM 5/6) = 0
+
+    INVALID  = 0
+
+
+
+    HE MU-OFDMA MCS 0 (BPSK 1/2)      = 0
+
+    HE MU-OFDMA MCS 1 (QPSK 1/2)      = 0
+
+    HE MU-OFDMA MCS 2 (QPSK 3/4)      = 0
+
+    HE MU-OFDMA MCS 3 (16-QAM 1/2)    = 0
+
+    HE MU-OFDMA MCS 4 (16-QAM 3/4)    = 0
+
+    HE MU-OFDMA MCS 5 (64-QAM 2/3)    = 0
+
+    HE MU-OFDMA MCS 6 (64-QAM 3/4)    = 0
+
+    HE MU-OFDMA MCS 7 (64-QAM 5/6)    = 0
+
+    HE MU-OFDMA MCS 8 (256-QAM 3/4)   = 0
+
+    HE MU-OFDMA MCS 9 (256-QAM 5/6)   = 0
+
+    HE MU-OFDMA MCS 10 (1024-QAM 3/4) = 0
+
+    HE MU-OFDMA MCS 11 (1024-QAM 5/6) = 0
+
+    INVALID  = 0
+
+
+
+    HE MU-MIMO-OFDMA MCS 0 (BPSK 1/2)      = 0
+
+    HE MU-MIMO-OFDMA MCS 1 (QPSK 1/2)      = 0
+
+    HE MU-MIMO-OFDMA MCS 2 (QPSK 3/4)      = 0
+
+    HE MU-MIMO-OFDMA MCS 3 (16-QAM 1/2)    = 0
+
+    HE MU-MIMO-OFDMA MCS 4 (16-QAM 3/4)    = 0
+
+    HE MU-MIMO-OFDMA MCS 5 (64-QAM 2/3)    = 0
+
+    HE MU-MIMO-OFDMA MCS 6 (64-QAM 3/4)    = 0
+
+    HE MU-MIMO-OFDMA MCS 7 (64-QAM 5/6)    = 0
+
+    HE MU-MIMO-OFDMA MCS 8 (256-QAM 3/4)   = 0
+
+    HE MU-MIMO-OFDMA MCS 9 (256-QAM 5/6)   = 0
+
+    HE MU-MIMO-OFDMA MCS 10 (1024-QAM 3/4) = 0
+
+    HE MU-MIMO-OFDMA MCS 11 (1024-QAM 5/6) = 0
+
+    INVALID  = 0
+
+
+
+SGI = 0.8us 30747277 0.4us 0 1.6us 0 3.2us 0
+
+Wireless Mutlimedia 
+
+	 Best effort = 30747237
+
+	 Background= 0
+
+	 Video = 0
+
+	 Voice = 40
+
+Excess Retries per AC 
+
+	 Best effort = 0
+
+	 Background= 0
+
+	 Video = 0
+
+	 Voice = 0
+
+MSDU Count
+
+        NSS(1-8) =  41 30747236 0 0 0 0 0 0
+
+Transmit Type :
+
+MSDUs Success: SU 30747277, MU_MIMO 0, MU_OFDMA 0, MU_MIMO_OFDMA 0
+
+MPDUs Success: SU 4413934, MU_MIMO 0, MU_OFDMA 0, MU_MIMO_OFDMA 0
+
+MPDUs Tried: SU 4756920, MU_MIMO 0, MU_OFDMA 0, MU_MIMO_OFDMA 0
+
+User position list for GID 00->15: [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
+User position list for GID 16->31: [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
+User position list for GID 32->47: [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
+User position list for GID 48->63: [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
+Last Packet RU index [0], Size [0]
+
+Transmit Type SU
+
+    PPDU Count
+
+    NSS(1-8) =  52465 0 0 0 0 0 0 0
+
+    MPDU OK = 0, MPDU Fail = 0
+
+Transmit Type MU-MIMO
+
+    PPDU Count
+
+    NSS(1-8) =  0 0 0 0 0 0 0 0
+
+    MPDU OK = 0, MPDU Fail = 0
+
+Transmit Type MU-OFDMA
+
+    PPDU Count
+
+    NSS(1-8) =  0 0 0 0 0 0 0 0
+
+    MPDU OK = 0, MPDU Fail = 0
+
+Transmit Type MU-MIMO-OFDMA
+
+    PPDU Count
+
+    NSS(1-8) =  0 0 0 0 0 0 0 0
+
+    MPDU OK = 0, MPDU Fail = 0
+
+Aggregation:
+
+Number of Msdu's Part of Amsdu = 1273525
+
+Number of Msdu's With No Msdu Level Aggregation = 29473711
+
+Bytes and Packets transmitted  in last one sec:
+
+	Bytes transmitted in last sec: 54
+
+	Data transmitted in last sec: 1
+
+BW Counts = 20MHZ 41 40MHZ 0 80MHZ 0 160MHZ 30747236 320MHZ 0
+
+
+Punctured BW Counts = NO_PUNC 30747277 20MHz 0 40MHz 0 80MHz 0 120MHz 0
+
+
+RU Locations
+
+RU_26: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_52: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_52_26: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_106: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_106_26: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_242: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_484: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_484_242: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_996: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_996_484: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_996_484_242: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_2x996: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_2x996_484: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_3x996: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_3x996_484: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+RU_4x996: MSDUs Success = 0 MPDUs Success = 0 MPDUs Tried = 0
+
+PPDU Count
+
+	EHT MCS 0 (BPSK 1/2)      = 0
+
+	EHT MCS 1 (QPSK 1/2)      = 0
+
+	EHT MCS 2 (QPSK 3/4)      = 0
+
+	EHT MCS 3 (16-QAM 1/2)    = 0
+
+	EHT MCS 4 (16-QAM 3/4)    = 0
+
+	EHT MCS 5 (64-QAM 2/3)    = 0
+
+	EHT MCS 6 (64-QAM 3/4)    = 4
+
+	EHT MCS 7 (64-QAM 5/6)    = 5
+
+	EHT MCS 8 (256-QAM 3/4)   = 5
+
+	EHT MCS 9 (256-QAM 5/6)   = 5
+
+	EHT MCS 10 (1024-QAM 3/4) = 252
+
+	EHT MCS 11 (1024-QAM 5/6) = 6009
+
+	EHT MCS 12 (4096-QAM 3/4) = 12654
+
+	EHT MCS 13 (4096-QAM 5/6) = 33531
+
+	EHT MCS 14 (BPSK-DCM 1/2) = 0
+
+	EHT MCS 15 (BPSK-DCM 1/2) = 0
+
+
+
+PPDU Count
+
+	EHT MU-MIMO MCS 0 (BPSK 1/2)      = 0
+
+	EHT MU-MIMO MCS 1 (QPSK 1/2)      = 0
+
+	EHT MU-MIMO MCS 2 (QPSK 3/4)      = 0
+
+	EHT MU-MIMO MCS 3 (16-QAM 1/2)    = 0
+
+	EHT MU-MIMO MCS 4 (16-QAM 3/4)    = 0
+
+	EHT MU-MIMO MCS 5 (64-QAM 2/3)    = 0
+
+	EHT MU-MIMO MCS 6 (64-QAM 3/4)    = 0
+
+	EHT MU-MIMO MCS 7 (64-QAM 5/6)    = 0
+
+	EHT MU-MIMO MCS 8 (256-QAM 3/4)   = 0
+
+	EHT MU-MIMO MCS 9 (256-QAM 5/6)   = 0
+
+	EHT MU-MIMO MCS 10 (1024-QAM 3/4) = 0
+
+	EHT MU-MIMO MCS 11 (1024-QAM 5/6) = 0
+
+	EHT MU-MIMO MCS 12 (4096-QAM 3/4) = 0
+
+	EHT MU-MIMO MCS 13 (4096-QAM 5/6) = 0
+
+	EHT MU-MIMO MCS 14 (BPSK-DCM 1/2) = 0
+
+	EHT MU-MIMO MCS 15 (BPSK-DCM 1/2) = 0
+
+
+
+	EHT OFDMA MCS 0 (BPSK 1/2)      = 0
+
+	EHT OFDMA MCS 1 (QPSK 1/2)      = 0
+
+	EHT OFDMA MCS 2 (QPSK 3/4)      = 0
+
+	EHT OFDMA MCS 3 (16-QAM 1/2)    = 0
+
+	EHT OFDMA MCS 4 (16-QAM 3/4)    = 0
+
+	EHT OFDMA MCS 5 (64-QAM 2/3)    = 0
+
+	EHT OFDMA MCS 6 (64-QAM 3/4)    = 0
+
+	EHT OFDMA MCS 7 (64-QAM 5/6)    = 0
+
+	EHT OFDMA MCS 8 (256-QAM 3/4)   = 0
+
+	EHT OFDMA MCS 9 (256-QAM 5/6)   = 0
+
+	EHT OFDMA MCS 10 (1024-QAM 3/4) = 0
+
+	EHT OFDMA MCS 11 (1024-QAM 5/6) = 0
+
+	EHT OFDMA MCS 12 (4096-QAM 3/4) = 0
+
+	EHT OFDMA MCS 13 (4096-QAM 5/6) = 0
+
+	EHT OFDMA MCS 14 (BPSK-DCM 1/2) = 0
+
+	EHT OFDMA MCS 15 (BPSK-DCM 1/2) = 0
+
+
+
+TX Invalid Link ID Packet Count = 0
+
+Node Rx Stats:
+
+Packets Sent To Stack = 2363
+
+Bytes Sent To Stack = 2216864
+
+Ring Id = 0
+
+	Packets Received = 1089
+
+	Bytes Received = 1089899
+
+Ring Id = 1
+
+	Packets Received = 504
+
+	Bytes Received = 471182
+
+Ring Id = 2
+
+	Packets Received = 152
+
+	Bytes Received = 43804
+
+Ring Id = 3
+
+	Packets Received = 616
+
+	Bytes Received = 611515
+
+Ring Id = 4
+
+	Packets Received = 0
+
+	Bytes Received = 0
+
+Ring Id = 5
+
+	Packets Received = 0
+
+	Bytes Received = 0
+
+Ring Id = 6
+
+	Packets Received = 0
+
+	Bytes Received = 0
+
+Ring Id = 7
+
+	Packets Received = 0
+
+	Bytes Received = 0
+
+Packets Received on lmac[0] = 0 ( 0 ),
+
+Packets Received on lmac[1] = 0 ( 0 ),
+
+Unicast Packets Received = 2328
+
+Unicast Bytes Received = 2209958
+
+Multicast Packets Received = 34
+
+Multicast Bytes Received = 6594
+
+Broadcast Packets Received = 3
+
+Broadcast Bytes Received = 430
+
+Packets Sent To Stack in TWT Session = 0
+
+Bytes Sent To Stack in TWT Session = 0
+
+Intra BSS Packets Received = 0
+
+Intra BSS Bytes Received = 0
+
+Intra BSS Packets Failed = 0
+
+Intra BSS Bytes Failed = 0
+
+Intra BSS MDNS Packets Not Forwarded  = 0
+
+Raw Packets Received = 0
+
+Raw Bytes Received = 0
+
+Errors: MIC Errors = 0
+
+Errors: Decryption Errors = 0
+
+Errors: PN Errors = 0
+
+Errors: OOR Errors = 88
+
+Errors: 2k Jump Errors = 0
+
+Errors: RXDMA Wifi Parse Errors = 0
+
+Msdu's Received As Part of Ampdu = 1519
+
+Msdu's Received As Ampdu = 1684
+
+Msdu's Received Not Part of Amsdu's = 783
+
+MSDUs Received As Part of Amsdu = 1578
+
+MSDU Rx Retries= 99
+
+MPDU Rx Retries= 118
+
+NAWDS : 
+
+	Nawds multicast Drop Rx Packet = 0
+
+ 3address multicast Drop Rx Packet = 0
+
+SGI = 0.8us 2474 0.4us 0 1.6us 729 3.2us 0
+
+Wireless Mutlimedia 
+
+	 Best effort = 3160
+
+	 Background= 0
+
+	 Video = 0
+
+	 Voice = 43
+
+ Total Rx PPDU Count = 1745
+
+ Total Rx MPDU Count = 2414
+
+MSDU Reception Type
+
+SU 3203 MU_MIMO 0 MU_OFDMA 0 MU_OFDMA_MIMO 0
+
+PPDU Reception Type
+
+SU 1745 MU_MIMO 0 MU_OFDMA 0 MU_OFDMA_MIMO 0
+
+MSDU Count
+
+	OFDM 48 Mbps = 0
+
+	OFDM 24 Mbps = 741
+
+	OFDM 12 Mbps = 280
+
+	OFDM 6 Mbps  = 3
+
+	OFDM 54 Mbps = 0
+
+	OFDM 36 Mbps = 0
+
+	OFDM 18 Mbps = 0
+
+	OFDM 9 Mbps  = 0
+
+
+
+	CCK 11 Mbps Long   = 0
+
+	CCK 5.5 Mbps Long  = 0
+
+	CCK 2 Mbps Long    = 0
+
+	CCK 1 Mbps Long    = 0
+
+	CCK 11 Mbps Short  = 0
+
+	CCK 5.5 Mbps Short = 0
+
+	CCK 2 Mbps Short   = 0
+
+
+
+	HT MCS 0 (BPSK 1/2)   = 0
+
+	HT MCS 1 (QPSK 1/2)   = 0
+
+	HT MCS 2 (QPSK 3/4)   = 0
+
+	HT MCS 3 (16-QAM 1/2) = 0
+
+	HT MCS 4 (16-QAM 3/4) = 0
+
+	HT MCS 5 (64-QAM 2/3) = 0
+
+	HT MCS 6 (64-QAM 3/4) = 0
+
+	HT MCS 7 (64-QAM 5/6) = 0
+
+
+
+	VHT MCS 0 (BPSK 1/2)      = 0
+
+	VHT MCS 1 (QPSK 1/2)      = 0
+
+	VHT MCS 2 (QPSK 3/4)      = 0
+
+	VHT MCS 3 (16-QAM 1/2)    = 0
+
+	VHT MCS 4 (16-QAM 3/4)    = 0
+
+	VHT MCS 5 (64-QAM 2/3)    = 0
+
+	VHT MCS 6 (64-QAM 3/4)    = 0
+
+	VHT MCS 7 (64-QAM 5/6)    = 0
+
+	VHT MCS 8 (256-QAM 3/4)   = 0
+
+	VHT MCS 9 (256-QAM 5/6)   = 0
+
+	VHT MCS 10 (1024-QAM 3/4) = 0
+
+	VHT MCS 11 (1024-QAM 5/6) = 0
+
+
+
+	HE MCS 0 (BPSK 1/2)      = 0
+
+	HE MCS 1 (QPSK 1/2)      = 0
+
+	HE MCS 2 (QPSK 3/4)      = 0
+
+	HE MCS 3 (16-QAM 1/2)    = 0
+
+	HE MCS 4 (16-QAM 3/4)    = 0
+
+	HE MCS 5 (64-QAM 2/3)    = 0
+
+	HE MCS 6 (64-QAM 3/4)    = 0
+
+	HE MCS 7 (64-QAM 5/6)    = 0
+
+	HE MCS 8 (256-QAM 3/4)   = 0
+
+	HE MCS 9 (256-QAM 5/6)   = 0
+
+	HE MCS 10 (1024-QAM 3/4) = 0
+
+	HE MCS 11 (1024-QAM 5/6) = 0
+
+	HE MCS 12 (4096-QAM 3/4) = 0
+
+	HE MCS 13 (4096-QAM 5/6) = 0
+
+
+
+	EHT MCS 0 (BPSK 1/2)      = 0
+
+	EHT MCS 1 (QPSK 1/2)      = 0
+
+	EHT MCS 2 (QPSK 3/4)      = 0
+
+	EHT MCS 3 (16-QAM 1/2)    = 0
+
+	EHT MCS 4 (16-QAM 3/4)    = 0
+
+	EHT MCS 5 (64-QAM 2/3)    = 0
+
+	EHT MCS 6 (64-QAM 3/4)    = 0
+
+	EHT MCS 7 (64-QAM 5/6)    = 0
+
+	EHT MCS 8 (256-QAM 3/4)   = 0
+
+	EHT MCS 9 (256-QAM 5/6)   = 4
+
+	EHT MCS 10 (1024-QAM 3/4) = 160
+
+	EHT MCS 11 (1024-QAM 5/6) = 327
+
+	EHT MCS 12 (4096-QAM 3/4) = 1375
+
+	EHT MCS 13 (4096-QAM 5/6) = 313
+
+	EHT MCS 14 (BPSK-DCM 1/2) = 0
+
+	EHT MCS 15 (BPSK-DCM 1/2) = 0
+
+
+
+PPDU Count
+
+	HE MCS 0 (BPSK 1/2)      = 0
+
+	HE MCS 1 (QPSK 1/2)      = 0
+
+	HE MCS 2 (QPSK 3/4)      = 0
+
+	HE MCS 3 (16-QAM 1/2)    = 0
+
+	HE MCS 4 (16-QAM 3/4)    = 0
+
+	HE MCS 5 (64-QAM 2/3)    = 0
+
+	HE MCS 6 (64-QAM 3/4)    = 0
+
+	HE MCS 7 (64-QAM 5/6)    = 0
+
+	HE MCS 8 (256-QAM 3/4)   = 0
+
+	HE MCS 9 (256-QAM 5/6)   = 0
+
+	HE MCS 10 (1024-QAM 3/4) = 0
+
+	HE MCS 11 (1024-QAM 5/6) = 0
+
+	HE MCS 12 (4096-QAM 3/4) = 0
+
+	HE MCS 13 (4096-QAM 5/6) = 0
+
+
+
+PPDU Count
+
+	HE MU-MIMO MCS 0 (BPSK 1/2)      = 0
+
+	HE MU-MIMO MCS 1 (QPSK 1/2)      = 0
+
+	HE MU-MIMO MCS 2 (QPSK 3/4)      = 0
+
+	HE MU-MIMO MCS 3 (16-QAM 1/2)    = 0
+
+	HE MU-MIMO MCS 4 (16-QAM 3/4)    = 0
+
+	HE MU-MIMO MCS 5 (64-QAM 2/3)    = 0
+
+	HE MU-MIMO MCS 6 (64-QAM 3/4)    = 0
+
+	HE MU-MIMO MCS 7 (64-QAM 5/6)    = 0
+
+	HE MU-MIMO MCS 8 (256-QAM 3/4)   = 0
+
+	HE MU-MIMO MCS 9 (256-QAM 5/6)   = 0
+
+	HE MU-MIMO MCS 10 (1024-QAM 3/4) = 0
+
+	HE MU-MIMO MCS 11 (1024-QAM 5/6) = 0
+
+	HE MU-MIMO MCS 12 (4096-QAM 3/4) = 0
+
+	HE MU-MIMO MCS 13 (4096-QAM 5/6) = 0
+
+
+
+	HE OFDMA MCS 0 (BPSK 1/2)      = 0
+
+	HE OFDMA MCS 1 (QPSK 1/2)      = 0
+
+	HE OFDMA MCS 2 (QPSK 3/4)      = 0
+
+	HE OFDMA MCS 3 (16-QAM 1/2)    = 0
+
+	HE OFDMA MCS 4 (16-QAM 3/4)    = 0
+
+	HE OFDMA MCS 5 (64-QAM 2/3)    = 0
+
+	HE OFDMA MCS 6 (64-QAM 3/4)    = 0
+
+	HE OFDMA MCS 7 (64-QAM 5/6)    = 0
+
+	HE OFDMA MCS 8 (256-QAM 3/4)   = 0
+
+	HE OFDMA MCS 9 (256-QAM 5/6)   = 0
+
+	HE OFDMA MCS 10 (1024-QAM 3/4) = 0
+
+	HE OFDMA MCS 11 (1024-QAM 5/6) = 0
+
+	HE OFDMA MCS 12 (4096-QAM 3/4) = 0
+
+	HE OFDMA MCS 13 (4096-QAM 5/6) = 0
+
+
+
+MSDU Count
+
+	NSS(1-8) =  1024 2179 0 0 0 0 0 0
+
+reception mode SU
+
+	PPDU Count
+
+	NSS(1-8) =  1024 721 0 0 0 0 0 0
+
+	MPDU OK = 2382, MPDU Fail = 32
+
+reception mode MU MIMO
+
+	PPDU Count
+
+	NSS(1-8) =  0 0 0 0 0 0 0 0
+
+	MPDU OK = 0, MPDU Fail = 0
+
+reception mode MU OFDMA
+
+	PPDU Count
+
+	NSS(1-8) =  0 0 0 0 0 0 0 0
+
+	MPDU OK = 0, MPDU Fail = 0
+
+Aggregation:
+
+	Msdu's Part of Ampdu = 1684
+
+	Msdu's With No Mpdu Level Aggregation = 1519
+
+	Msdu's Part of Amsdu = 1578
+
+	Msdu's With No Msdu Level Aggregation = 783
+
+Bytes and Packets received in last one sec:
+
+	Bytes received in last sec: 74
+
+	Data received in last sec: 1
+
+MEC Packet Drop = 0
+
+MEC Byte Drop = 0
+
+Multipass Rx Packet Drop = 0
+
+Peer Unauth Rx Packet Drop = 0
+
+Policy Check Rx Packet Drop = 0
+
+BW Counts = 20MHZ 1024 40MHZ 0 80MHZ 0 160MHZ 2179 320MHZ 0
+
+Punctured BW Counts = NO_PUNC 3203 20MHz 0 40MHz 0 80MHz 0 120MHz 0
+
+
+PPDU Count
+
+	EHT MCS 0 (BPSK 1/2)      = 0
+
+	EHT MCS 1 (QPSK 1/2)      = 0
+
+	EHT MCS 2 (QPSK 3/4)      = 0
+
+	EHT MCS 3 (16-QAM 1/2)    = 0
+
+	EHT MCS 4 (16-QAM 3/4)    = 0
+
+	EHT MCS 5 (64-QAM 2/3)    = 0
+
+	EHT MCS 6 (64-QAM 3/4)    = 0
+
+	EHT MCS 7 (64-QAM 5/6)    = 0
+
+	EHT MCS 8 (256-QAM 3/4)   = 0
+
+	EHT MCS 9 (256-QAM 5/6)   = 1
+
+	EHT MCS 10 (1024-QAM 3/4) = 37
+
+	EHT MCS 11 (1024-QAM 5/6) = 97
+
+	EHT MCS 12 (4096-QAM 3/4) = 329
+
+	EHT MCS 13 (4096-QAM 5/6) = 257
+
+	EHT MCS 14 (BPSK-DCM 1/2) = 0
+
+	EHT MCS 15 (BPSK-DCM 1/2) = 0
+
+
+
+PPDU Count
+
+	EHT MU-MIMO MCS 0 (BPSK 1/2)      = 0
+
+	EHT MU-MIMO MCS 1 (QPSK 1/2)      = 0
+
+	EHT MU-MIMO MCS 2 (QPSK 3/4)      = 0
+
+	EHT MU-MIMO MCS 3 (16-QAM 1/2)    = 0
+
+	EHT MU-MIMO MCS 4 (16-QAM 3/4)    = 0
+
+	EHT MU-MIMO MCS 5 (64-QAM 2/3)    = 0
+
+	EHT MU-MIMO MCS 6 (64-QAM 3/4)    = 0
+
+	EHT MU-MIMO MCS 7 (64-QAM 5/6)    = 0
+
+	EHT MU-MIMO MCS 8 (256-QAM 3/4)   = 0
+
+	EHT MU-MIMO MCS 9 (256-QAM 5/6)   = 0
+
+	EHT MU-MIMO MCS 10 (1024-QAM 3/4) = 0
+
+	EHT MU-MIMO MCS 11 (1024-QAM 5/6) = 0
+
+	EHT MU-MIMO MCS 12 (4096-QAM 3/4) = 0
+
+	EHT MU-MIMO MCS 13 (4096-QAM 5/6) = 0
+
+	EHT MU-MIMO MCS 14 (BPSK-DCM 1/2) = 0
+
+	EHT MU-MIMO MCS 15 (BPSK-DCM 1/2) = 0
+
+
+
+	EHT OFDMA MCS 0 (BPSK 1/2)      = 0
+
+	EHT OFDMA MCS 1 (QPSK 1/2)      = 0
+
+	EHT OFDMA MCS 2 (QPSK 3/4)      = 0
+
+	EHT OFDMA MCS 3 (16-QAM 1/2)    = 0
+
+	EHT OFDMA MCS 4 (16-QAM 3/4)    = 0
+
+	EHT OFDMA MCS 5 (64-QAM 2/3)    = 0
+
+	EHT OFDMA MCS 6 (64-QAM 3/4)    = 0
+
+	EHT OFDMA MCS 7 (64-QAM 5/6)    = 0
+
+	EHT OFDMA MCS 8 (256-QAM 3/4)   = 0
+
+	EHT OFDMA MCS 9 (256-QAM 5/6)   = 0
+
+	EHT OFDMA MCS 10 (1024-QAM 3/4) = 0
+
+	EHT OFDMA MCS 11 (1024-QAM 5/6) = 0
+
+	EHT OFDMA MCS 12 (4096-QAM 3/4) = 0
+
+	EHT OFDMA MCS 13 (4096-QAM 5/6) = 0
+
+	EHT OFDMA MCS 14 (BPSK-DCM 1/2) = 0
+
+	EHT OFDMA MCS 15 (BPSK-DCM 1/2) = 0
+
+
+
+RX Invalid Link ID Packet Count = 0
+
+Reo Qref table for peer_id: 8194
+
+
+    Tid [0]  :8590f000
+
+    Tid [1]  :0
+
+    Tid [2]  :0
+
+    Tid [3]  :0
+
+    Tid [4]  :0
+
+    Tid [5]  :0
+
+    Tid [6]  :600008ad76800
+
+    Tid [7]  :700008ad77800
+
+    Tid [8]  :0
+
+    Tid [9]  :0
+
+    Tid [10]  :0
+
+    Tid [11]  :0
+
+    Tid [12]  :0
+
+    Tid [13]  :0
+
+    Tid [14]  :0
+
+    Tid [15]  :0
+
+    Tid [16]  :1000008c0ce900
+
+[*07/26/2024 16:16:05.4052] wlan: [704:I:ANY] wlan_cfg80211_txrx_peer_stats: wlan_cfg80211_txrx_peer_stats :be:43:ed:d3:b7:30  
+
+REO queue stats (TID: 0):
+
+ssn: 1540
+
+curr_idx  : 4
+
+pn_31_0   : 00000634
+
+pn_63_32  : 00000000
+
+pn_95_64  : 00000000
+
+pn_127_96 : 00000000
+
+last_rx_enq_tstamp : 085527a2
+
+last_rx_deq_tstamp : 085527a2
+
+rx_bitmap_31_0     : 00000000
+
+rx_bitmap_63_32    : 00000000
+
+rx_bitmap_95_64    : 00000000
+
+rx_bitmap_127_96   : 00000000
+
+rx_bitmap_159_128  : 00000000
+
+rx_bitmap_191_160  : 00000000
+
+rx_bitmap_223_192  : 00000000
+
+rx_bitmap_255_224  : 00000000
+
+
+curr_mpdu_cnt      : 0
+
+curr_msdu_cnt      : 0
+
+fwd_timeout_cnt    : 1
+
+fwd_bar_cnt        : 0
+
+dup_cnt            : 1
+
+frms_in_order_cnt  : 1519
+
+bar_rcvd_cnt       : 0
+
+mpdu_frms_cnt      : 1598
+
+msdu_frms_cnt      : 2419
+
+total_byte_cnt     : 2316228
+
+late_recv_mpdu_cnt : 57
+
+win_jump_2k        : 0
+
+hole_cnt           : 21
+
+
+Addba Req          : 1
+
+Addba Resp         : 1
+
+Addba Resp success : 1
+
+Addba Resp failed  : 0
+
+Delba Req received : 0
+
+Delba Tx success   : 0
+
+Delba Tx Fail      : 0
+
+BA window size     : 128
+
+Pn size            : 48
+
+
+REO queue stats (TID: 6):
+
+ssn: 3
+
+curr_idx  : 2
+
+pn_31_0   : 00000039
+
+pn_63_32  : 00000000
+
+pn_95_64  : 00000000
+
+pn_127_96 : 00000000
+
+last_rx_enq_tstamp : eda2f6fc
+
+last_rx_deq_tstamp : 00000000
+
+rx_bitmap_31_0     : 00000000
+
+rx_bitmap_63_32    : 00000000
+
+rx_bitmap_95_64    : 00000000
+
+rx_bitmap_127_96   : 00000000
+
+rx_bitmap_159_128  : 00000000
+
+rx_bitmap_191_160  : 00000000
+
+rx_bitmap_223_192  : 00000000
+
+rx_bitmap_255_224  : 00000000
+
+
+curr_mpdu_cnt      : 0
+
+curr_msdu_cnt      : 0
+
+fwd_timeout_cnt    : 0
+
+fwd_bar_cnt        : 0
+
+dup_cnt            : 0
+
+frms_in_order_cnt  : 2
+
+bar_rcvd_cnt       : 0
+
+mpdu_frms_cnt      : 2
+
+msdu_frms_cnt      : 2
+
+total_byte_cnt     : 108
+
+late_recv_mpdu_cnt : 0
+
+win_jump_2k        : 0
+
+hole_cnt           : 0
+
+
+Addba Req          : 1
+
+Addba Resp         : 1
+
+Addba Resp success : 1
+
+Addba Resp failed  : 0
+
+Delba Req received : 0
+
+Delba Tx success   : 0
+
+Delba Tx Fail      : 0
+
+BA window size     : 32
+
+Pn size            : 0
+
+
+REO queue stats (TID: 7):
+
+ssn: 40
+
+curr_idx  : 6
+
+pn_31_0   : 00000627
+
+pn_63_32  : 00000000
+
+pn_95_64  : 00000000
+
+pn_127_96 : 00000000
+
+last_rx_enq_tstamp : 06f4125c
+
+last_rx_deq_tstamp : 06f4125c
+
+rx_bitmap_31_0     : 00000000
+
+rx_bitmap_63_32    : 00000000
+
+rx_bitmap_95_64    : 00000000
+
+rx_bitmap_127_96   : 00000000
+
+rx_bitmap_159_128  : 00000000
+
+rx_bitmap_191_160  : 00000000
+
+rx_bitmap_223_192  : 00000000
+
+rx_bitmap_255_224  : 00000000
+
+
+curr_mpdu_cnt      : 0
+
+curr_msdu_cnt      : 0
+
+fwd_timeout_cnt    : 1
+
+fwd_bar_cnt        : 0
+
+dup_cnt            : 0
+
+frms_in_order_cnt  : 38
+
+bar_rcvd_cnt       : 0
+
+mpdu_frms_cnt      : 39
+
+msdu_frms_cnt      : 39
+
+total_byte_cnt     : 1792
+
+late_recv_mpdu_cnt : 0
+
+win_jump_2k        : 0
+
+hole_cnt           : 1
+
+
+Addba Req          : 1
+
+Addba Resp         : 1
+
+Addba Resp success : 1
+
+Addba Resp failed  : 0
+
+Delba Req received : 0
+
+Delba Tx success   : 0
+
+Delba Tx Fail      : 0
+
+BA window size     : 32
+
+Pn size            : 48
+
+
+REO queue stats (TID: 16):
+
+ssn: 0
+
+curr_idx  : 0
+
+pn_31_0   : 00000000
+
+pn_63_32  : 00000000
+
+pn_95_64  : 00000000
+
+pn_127_96 : 00000000
+
+last_rx_enq_tstamp : ed6ed0d1
+
+last_rx_deq_tstamp : 00000000
+
+rx_bitmap_31_0     : 00000000
+
+rx_bitmap_63_32    : 00000000
+
+rx_bitmap_95_64    : 00000000
+
+rx_bitmap_127_96   : 00000000
+
+rx_bitmap_159_128  : 00000000
+
+rx_bitmap_191_160  : 00000000
+
+rx_bitmap_223_192  : 00000000
+
+rx_bitmap_255_224  : 00000000
+
+
+curr_mpdu_cnt      : 0
+
+curr_msdu_cnt      : 0
+
+fwd_timeout_cnt    : 0
+
+fwd_bar_cnt        : 0
+
+dup_cnt            : 0
+
+frms_in_order_cnt  : 0
+
+bar_rcvd_cnt       : 3
+
+mpdu_frms_cnt      : 3
+
+msdu_frms_cnt      : 3
+
+total_byte_cnt     : 72
+
+late_recv_mpdu_cnt : 0
+
+win_jump_2k        : 0
+
+hole_cnt           : 0
+
+
+Addba Req          : 0
+
+Addba Resp         : 0
+
+Addba Resp success : 0
+
+Addba Resp failed  : 0
+
+Delba Req received : 0
+
+Delba Tx success   : 0
+
+Delba Tx Fail      : 0
+
+BA window size     : 1
+
+Pn size            : 48
+

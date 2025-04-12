@@ -1,0 +1,13 @@
+? ''
+: commands:
+  - sh log
+AP:
+  commands:
+  - show log
+  - show crash log
+AP1:
+  commands:
+  - show log
+Unknown_Device:
+  commands:
+  - show log

@@ -1,0 +1,43 @@
+version:
+  description: "AP software version"
+  cmd_num: 1
+  generator: "generate_mock_version"
+  collection:
+    before_test: true
+    during_test:
+      enabled: false
+      interval_sec: 0
+    after_test: false
+
+performance:
+  description: "AP performance stats (e.g. MSDU, MCS, NSS)"
+  cmd_num: 3
+  generator: "generate_mock_perf_stats"
+  collection:
+    before_test: true
+    during_test:
+      enabled: false
+      interval_sec: 0
+    after_test: true
+
+cpu:
+  description: "Per-core CPU usage"
+  cmd_num: 4
+  generator: "generate_mock_cpu_stats"
+  collection:
+    before_test: true
+    during_test:
+      enabled: true
+      interval_sec: 60
+    after_test: true
+
+memory:
+  description: "Memory usage (free & available)"
+  cmd_num: 2
+  generator: "generate_mock_memory_stats"
+  collection:
+    before_test: true
+    during_test:
+      enabled: true
+      interval_sec: 60
+    after_test: true
